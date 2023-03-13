@@ -1,0 +1,32 @@
+.header{
+  font-family: 'Golos Text', sans-serif;
+  &__container{
+    display: flex;
+    align-items: center;
+    padding: 30px 70px;
+  }
+  &__nav{
+    margin-left: auto;
+  }
+  &__link{
+    margin-right: 32px;
+    color:  #000C2D;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    &--active{
+      font-weight: 700;
+    }
+  }
+  &__button{
+    background: #FFFFFF;
+    border: 1px solid #2F70FE;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    color: #2F70FE;
+    padding: 12px 23px;
+  }
+}
