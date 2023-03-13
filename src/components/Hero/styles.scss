@@ -6,6 +6,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media (max-width:1220px){
+      padding: 100px 250px;
+    }
+    @media (max-width:1050px){
+      padding: 100px 180px;
+    }
+    @media (max-width:800px) {
+      padding: 80px 100px;
+    }
+    @media (max-width:620px) {
+      padding: 40px 30px;
+    }
+    @media (max-width:500px) {
+      padding: 56px 15px 80px;
+    }
   }
   &__title{
     margin-bottom: 7px;
@@ -14,6 +29,14 @@
     line-height: 65px;
     text-align: center;
     color: #FFFFFF;
+    @media (max-width:620px) {
+      font-size: 40px;
+      line-height: 55px;
+    }
+    @media (max-width:500px) {
+      font-size: 35px;
+      line-height: 45px;
+    }
   }
   &__subtitle{
     padding: 0 92px;
@@ -23,6 +46,13 @@
     line-height: 30px;
     text-align: center;
     color: #FFFFFF;
+    @media (max-width:1050px) {
+      padding: 0 50px;
+    }
+    @media (max-width:500px) {
+      padding: 0;
+      margin-bottom: 102px;
+    }
   }
   &__button{
     padding: 16px 25px;
