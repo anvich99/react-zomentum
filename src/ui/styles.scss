@@ -1,4 +1,10 @@
 .container{
   max-width: 1440px;
   margin: 0 auto;
+  width: 100%;
+}
+.zomentum-content{
+  font-family: 'Golos Text', sans-serif;
+  display: flex;
+  flex-direction: column;
 }

@@ -1,32 +1,21 @@
 .offer{
-  font-family: 'Golos Text', sans-serif;
   background: rgba(0, 255, 133, 0.08);
   &__container{
-    background: url("../../assets/icon/triangle.svg") bottom 132px left 69px no-repeat,
-        url("../../assets/icon/triangle.svg") top 126px right 69px no-repeat;
+    background: url("../../assets/icons/triangle.svg") bottom 132px left 69px no-repeat,
+        url("../../assets/icons/triangle.svg") top 126px right 69px no-repeat;
     padding: 100px 69px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    @media (max-width:1120px) {
-      padding: 80px 50px;
-      background: url("../../assets/icon/triangle.svg") top 110px left 69px no-repeat,
-        url("../../assets/icon/triangle.svg") top 110px right 69px no-repeat;
-    }
-    @media (max-width:800px) {
+    @media (max-width:768px) {
       padding: 60px 40px;
-      background: url("../../assets/icon/triangle.svg") top 60px left 40px no-repeat,
-        url("../../assets/icon/triangle.svg") top 60px right 40px no-repeat;
+      background: url("../../assets/icons/triangle.svg") top 60px left 40px no-repeat,
+        url("../../assets/icons/triangle.svg") top 60px right 40px no-repeat;
     }
-    @media (max-width:620px) {
-      padding: 40px 30px;
-      background: url("../../assets/icon/triangle.svg") top 40px left 30px no-repeat,
-        url("../../assets/icon/triangle.svg") top 40px right 30px no-repeat;
-    }
-    @media (max-width:500px) {
+    @media (max-width:365px) {
       padding: 89px 47px 129px;
-      background: url("../../assets/icon/triangle.svg") bottom 60px left 30px no-repeat,
-        url("../../assets/icon/triangle.svg") top 190px right 30px no-repeat;
+      background: url("../../assets/icons/triangle.svg") bottom 60px left 30px no-repeat,
+        url("../../assets/icons/triangle.svg") top 190px right 30px no-repeat;
     }
   }
   &__title{
@@ -37,22 +26,15 @@
     text-align: center;
     letter-spacing: 0.02em;
     color: #000000;
-    @media (max-width:620px) {
-      margin-bottom: 60px;
-      font-size: 35px;
-    }
-    @media (max-width:500px) {
+    @media (max-width:365px) {
       margin-bottom: 114px;
       font-size: 40px;
     }
   }
-  &__container-iner{
+  &__container-inner{
     display: flex;
     gap: 56px;
-    @media (max-width:620px) {
-      gap: 40px;
-    }
-    @media (max-width:500px) {
+    @media (max-width:365px) {
       gap: 67px;
       flex-direction: column;
     }

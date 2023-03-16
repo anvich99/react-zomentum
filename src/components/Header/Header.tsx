@@ -1,4 +1,4 @@
-import {ReactComponent as LogoIcon} from '../../assets/icon/logo.svg'
+import {ReactComponent as LogoIcon} from '../../assets/icons/logo.svg'
 import './styles.scss'
 import '../../ui/styles.scss'
 export const Header = () => {
